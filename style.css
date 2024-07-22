@@ -1,7 +1,7 @@
 body {
   font-size: 18px;
   font-family: "Ubuntu", sans-serif;
-  background: url("/images/gnome-linux-wall-bricks-wallpaper-preview.jpg");
+  background: url("./images/gnome-linux-wall-bricks-wallpaper-preview.jpg");
   background-repeat: no-repeat;
   background-position: bottom right;
   background-attachment: fixed;
