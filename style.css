@@ -1,0 +1,132 @@
+body {
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif;
+  background: url("/images/gnome-linux-wall-bricks-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.font-neon {
+  font-family: "Tilt Neon", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 9,
+    "YROT" 15;
+}
+
+.animation-neon {
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+}
+
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.inline > li {
+  display: inline;
+  padding: 10px;
+}
+
+.btn-ico {
+  margin: 8px;
+}
+
+h1 {
+  color: #C70039;
+}
+
+.img-circle {
+  width: 235px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.links{
+  color: #F8DE22;
+}
+
+h2 {
+  color: #900C3F;
+}
+
+.content {
+  color: #F94C10;
+}
+
+.hidden {
+  display: none;
+  color: white;
+}
+
+.elementary {
+  height: 40px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 60vw;
+  margin: 0px auto;
+}
+
+.card {
+  background: rgba(230, 220, 220, 0.24);
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(226, 226, 226, 0.548);
+  backdrop-filter: blur(4.4px);
+  -webkit-backdrop-filter: blur(4.4px);
+  border: 1px solid rgba(230, 220, 220, 0.63);
+  margin: 8px;
+  padding: 20px;
+}
